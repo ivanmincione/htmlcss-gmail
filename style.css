@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sfondo {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+
+}
+
+/* CONTENITORE GENERALE */
+
+.contenitore{
+  width: 1000px;
+  margin: auto;
+
+}
+
+/* HEADER */
+
+.immagine-logo{
+  width: 70px;
+
+}
+
+.testo-logo{
+  color: white;
+  font-size: 25px;
+
+}
+
+hr{
+  border-color: white;
+
+}
+
+/* NAV */
+
+.ricerca-email{
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#button{
+    color: white;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 50%
+
+}
+
+.notice-unread{
+  color: white;
+  letter-spacing: 1px;
+
+}
+
+#number-unread{
+  background-color: rgba(255, 0, 0, 0.4);
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+/* MAIN */
+
+.read{
+  background-color: silver;
+
+}
+
+.unread{
+  background-color: white;
+
+}
+
+.righe-sinistra{
+  display: inline-block;
+  width: 30%;
+
+}
+
+.righe-destra{
+  display: inline-block;
+  width: 50%;
+
+}
+
+.star{
+   color: blue;
+
+}
+
+.oggetto-email{
+   color: black;
+
+}
+
+.corpo-email{
+   color: grey;
+
+}
+
+/* FOOTER */
+
+footer{
+  text-align: center;
+  color: white;
+  font-style: italic;
+
+}
+
+#logo-footer{
+  font-style: normal;
+  font-size: 30px;
+
+}
